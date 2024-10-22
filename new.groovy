@@ -14,13 +14,13 @@ pipeline {
                     echo 'Running non-parameterized Java job...'
 
                     // Path to the normal Java file
-                    def javaFilePath = 'C:\\Users\\admin\\OneDrive\\Desktop\\jenkins\\Main.java'
+                    def javaFilePath = 'C:\\Users\\ARUSH_NILESH_NANCHE\\OneDrive\\Desktop\\New\\Main.java'
 
                     // Compile the Java file
                     bat "javac ${javaFilePath}"
 
                     // Run the Java program (Main class)
-                    bat "java -cp C:\\Users\\admin\\OneDrive\\Desktop\\jenkins Main"
+                    bat "java -cp "C:\Users\ARUSH_NILESH_NANCHE\OneDrive\Desktop\\New Main"
                 }
             }
         }
