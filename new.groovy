@@ -20,7 +20,7 @@ pipeline {
                     bat "javac ${javaFilePath}"
 
                     // Run the Java program (Main class)
-                    bat "java -cp "C:\Users\ARUSH_NILESH_NANCHE\OneDrive\Desktop\\New Main"
+                    bat "java -cp "C:\\Users\\ARUSH_NILESH_NANCHE\\OneDrive\\Desktop\\New Main"
                 }
             }
         }
